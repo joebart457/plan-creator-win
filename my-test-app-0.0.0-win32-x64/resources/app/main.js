@@ -751,7 +751,7 @@ var NavigationComponent = /** @class */ (function () {
         this.fullItems.push({ label: 'Tags', icon: 'pi pi-tags', routerLink: ['/tag-list'] });
         this.fullItems.push({ label: 'Goals', icon: 'pi pi-compass', routerLink: ['/objective'] });
         this.fullItems.push({ label: 'Test', icon: 'pi pi-chart-bar', routerLink: ['/analysis'] });
-        this.fullItems.push({ label: 'Settings', icon: 'pi pi-cog', routerLink: ['/settings'] });
+        // this.fullItems.push({label:'Settings', icon: 'pi pi-cog', routerLink: ['/settings']});
     };
     NavigationComponent.prototype.getMenuItems = function () {
         if (this.sessionService.getCurrentPlan()) {
